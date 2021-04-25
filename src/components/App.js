@@ -8,6 +8,18 @@ import Impressum from './Impressum'
 
 function App() {
   return (
+    /*
+    -- FRESH START --
+    To remove the landing page components just replace the returned code below by the following:
+
+    <Router>
+      <div className="flex flex-col min-h-screen ">
+        <div className="container flex-grow">
+          <p>Your Routes go here!</p>
+        </div>
+      </div>
+    </Router>
+    */
     <Router>
       <div className="flex flex-col min-h-screen ">
         <Navbar></Navbar>
@@ -22,7 +34,6 @@ function App() {
         </footer>
       </div>
     </Router>
-
   )
 }
 
